@@ -71,17 +71,17 @@ body {
 	width: 100%;
 }
 
-#about-me {
+#about_me {
 	flex: 2
 }
 
-.about-me__title {
+.about_me__title {
 	margin-top: 1em;
 	margin-bottom: 60px;
 	font-size: 30px;
 }
 
-.about-me__introduction {
+.about_me__introduction {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
@@ -89,7 +89,7 @@ body {
 	font-size: 16px;
 }
 
-#about-me p {
+#about_me p {
 	width: 80%;
 	font-size: 14px;
 	line-height: 1.2;
@@ -99,10 +99,6 @@ body {
 	text-align: center;
 	padding-block: 2em;
 	font-size: 27px;
-}
-
-.gallery .nav {
-	justify-content: center;
 }
 
 .logoInsta {
@@ -117,35 +113,6 @@ body {
 	gap: 5px;
 }
 
-.gallery-items-row img {
-	width: 100%;
-	height: 100%;
-}
-
-
-.nav-pills .nav-link.active, 
-.nav-pills .show > .nav-link {
-	color: #000;
-	background-color: #beb45a;
-	border-radius:0 ;
-}
-
-.nav-pills .nav-link {
-	color: #000
-}
-
-.item-column {
-	position: relative;
-	margin-bottom: 0 !important;
-	padding: 0;
-}
-
-.item-column::after{
-	content: "";
-	display: block;
-	padding-bottom: 100%;
-}
-
 .gallery-item {
     position: absolute;
     width: 100%;
@@ -155,16 +122,6 @@ body {
 	cursor: pointer;
 }
 
-.mg-prev, 
-.mg-next {
-	width: 30px;
-	height: 30px;
-	border-radius: 00%;
-	justify-content: center;
-	align-items: center;
-	display: flex;
-	font-size: 24px;
-}
 
 .quote {
 	font-family: 'Spectral';
@@ -295,16 +252,65 @@ input[type="submit"] {
 		align-items: center;
 	}
 
-	.about-me__title {
+	.about_me__title {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
 
-	#about-me .about-me__introduction,
-    #about-me p {
+	#about_me .about_me__introduction,
+    #about_me p {
 		width: 100%;
 	}
 }
+
+
+/* .gallery .nav {
+	justify-content: center;
+} */
+
+/* .gallery .nav {
+	justify-content: center;
+} */
+/* 
+.gallery-items-row img {
+	width: 100%;
+	height: 100%;
+} */
+
+/* .nav-pills .nav-link.active, 
+.nav-pills .show > .nav-link {
+	color: #000;
+	background-color: #beb45a;
+	border-radius:0 ;
+} */
+
+/* .nav-pills .nav-link {
+	color: #000
+} */
+
+/* .item-column {
+	position: relative;
+	margin-bottom: 0 !important;
+	padding: 0;
+}
+
+.item-column::after{
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+} */
+
+/* .mg-prev, 
+.mg-next {
+	width: 30px;
+	height: 30px;
+	border-radius: 00%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-size: 24px;
+} */
+
 
 
 @media all and (max-width: 1000px) {
@@ -326,7 +332,7 @@ input[type="submit"] {
 		z-index: -1;
 	}
 
-	.about-me__title{
+	.about_me__title{
 		text-align: center;
 		margin-top: 1em;
 	}
