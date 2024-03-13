@@ -72,7 +72,9 @@ body {
 }
 
 #about_me {
-	flex: 2
+	flex: 2;
+	width: 100%; 
+	max-width: 800px;
 }
 
 .about_me__title {
